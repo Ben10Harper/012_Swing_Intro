@@ -39,16 +39,25 @@ public class FirstWindow extends JFrame{
 		JButton b4 = new JButton("Button 4");
 		b4.setBackground(Color.BLUE);
 		JButton b5 = new JButton("Button 5");
+		b5.setBackground(Color.CYAN);
 		JButton b6 = new JButton("Button 6");
+		b6.setBackground(Color.GREEN);
 		JButton b7 = new JButton("Button 7");
+		b7.setBackground(Color.BLUE);
 		JButton b8 = new JButton("Button 8");
+		b8.setBackground(Color.ORANGE);
 		JButton b9 = new JButton("Button 9");
+		b9.setBackground(Color.YELLOW);
 		JButton b10 = new JButton("Button 10");
+		b10.setBackground(Color.GREEN);
 		JButton b11 = new JButton("Button 11");
+		b11.setBackground(Color.RED);
 		JButton b12 = new JButton("Button 12");
+		b12.setBackground(Color.CYAN);
 		JButton b13 = new JButton("Button 13");
+		b13.setBackground(Color.PINK);
 		JButton b14 = new JButton("Button 14");
-		JButton b15 = new JButton("Button 15");
+		b14.setBackground(Color.GREEN);
 		
 		JCheckBox cb1 = new JCheckBox("Do you LOVE bacon?");
 		cb1.setBackground(Color.CYAN);
@@ -84,12 +93,6 @@ public class FirstWindow extends JFrame{
 		gbc.gridx = 1;
 		gbc.gridy = 1;
 		p5.add(b13, gbc);
-		gbc.gridx = 0;
-		gbc.gridy = 2;
-		p5.add(b14, gbc);
-		gbc.gridx = 1;
-		gbc.gridy = 2;
-		p5.add(b15, gbc);
 		
 		
 		gbc.gridx = 0;
@@ -102,6 +105,7 @@ public class FirstWindow extends JFrame{
 		
 		p2.add(cb1);
 		p2.add(cb2);
+		p2.add(b14);
 		
 		gbc.gridx = 0;
 		gbc.gridy = 0;
